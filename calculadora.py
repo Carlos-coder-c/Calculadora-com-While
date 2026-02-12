@@ -43,8 +43,8 @@ while True:
 
     if entrada == 2:
       print(' FIMFIM===')
-      
-          break
+
+      break
 
    except ValueError:
          print('Digite apenas inteiro')
