@@ -1,7 +1,6 @@
 # Objetivo fazer uma calculadora para treinar lógica do While operadores: "+*/-"
 
 while True:
-
     print("===BEM VINDO A WHILECALCULATOR===")
       
     print("\n---Escolha 1 para calcular---")
@@ -9,7 +8,7 @@ while True:
 
     entrada = int(input(' Escolha a opção que se encaixe: '))
      
-    while True:
+    while entrada :
         if entrada == 1:
             print('Operadores: +/-*')
 
