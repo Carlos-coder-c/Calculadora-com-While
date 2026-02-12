@@ -6,18 +6,22 @@ while True:
     print("\n---Escolha 1 para calcular---")
     print("\n---Escolha 2 para sair---")
 
-    entrada = int(input(' Escolha a opção que se encaixe: '))
-     
-    
-    if entrada == 1:
-      print('Operadores: +/-*')
+   try: 
 
-         operador = input("Digite seu operador: ")
-           
-        valor1 = int(input('Digite um número: '))
-        valor2 = int(input('Digite um outro número: '))
+     entrada = int(input(' Escolha a opção que se encaixe: '))
+          
+              
+     if entrada == 1:
+       print('Operadores: +/-*')
 
-    try:
+       operador = input("Digite seu operador: ")
+                                            
+       valor1 = int(input('Digite um número: '))
+       valor2 = int(input('Digite um outro número: '))
+
+
+
+                                                    
         if operador == "+":
                 soma = valor1 + valor2
                 print('Resultado ', soma)
@@ -34,13 +38,18 @@ while True:
                 dividir = valor1 / valor2
                 print('Resultado ',  dividir)
 
-   except:
+       else:
+        print('Isso nao é um operador')
+
+    if entrada == 2:
+      print(' FIMFIM===')
+      
+          break
+
+   except ValueError:
          print('Digite apenas inteiro')
 
-   if entrada == 2:
-            break
 
-print(' ===FIM===')
 
 
                                       
