@@ -8,39 +8,39 @@ while True:
 
     entrada = int(input(' Escolha a opção que se encaixe: '))
      
-    while entrada :
-        if entrada == 1:
-            print('Operadores: +/-*')
+    
+    if entrada == 1:
+      print('Operadores: +/-*')
 
-            operador = input("Digite seu operador: ")
+         operador = input("Digite seu operador: ")
            
-            valor1 = int(input('Digite um número: '))
-            valor2 = int(input('Digite um outro número: '))
+        valor1 = int(input('Digite um número: '))
+        valor2 = int(input('Digite um outro número: '))
 
-         try:
-            if operador == +:
+    try:
+        if operador == "+":
                 soma = valor1 + valor2
                 print('Resultado ', soma)
 
-            elif operador == -:
+       elif operador == "-":
                 menos = valor1 - valor2
                 print('Resultado ',  menos)
             
-            elif operador == *:
+       elif operador == "*":
                 multiplicar = valor1 * valor2
                 print('Resultado ',  multiplicar)
 
-            elif operador == /:
+       elif operador == "/":
                 dividir = valor1 / valor2
                 print('Resultado ',  dividir)
 
-         except:
-                print('Digite apenas inteiro')
+   except:
+         print('Digite apenas inteiro')
 
-        if entrada == 2:
+   if entrada == 2:
             break
+
 print(' ===FIM===')
-break
 
 
                                       
