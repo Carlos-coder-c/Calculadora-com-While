@@ -49,7 +49,7 @@ https://github.com/Carlos-coder-c/Calculadora-com-While�
 📤 Clonar
 Copiar código
 Bash
-git clone https://github.com/Carlos-coder-c/Calculadora-com-While.git
+git clone https://github.com/Carlos-coder-c/Calculadora-com-While
 
 👨‍💻 Autor
 Carlos
